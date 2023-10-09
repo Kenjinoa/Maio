@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+
+        body 
+        {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 
+        {
+            color: rgb(97, 97, 97);
+        }
+
+        td
+        {
+            background-color: rgb(252, 253, 253);
+            text-align: center;
+            border-color: rgb(190, 189, 189);
+            font-weight: bold;
+            border-radius: 7%;
+            width: 60px;
+        }
+        .dias
+        {
+            font-size: x-small;
+            height: 20px;
+        }
+        #domingo 
+        {
+            border-color: rgb(190, 189, 189);
+            color: red;
+            background-color: rgba(240, 240, 1, 0.747);
+        }
+
+        #semana
+        {
+            border-color: rgb(190, 189, 189);
+            background-color: rgb(230, 228, 228);
+        }
+
+        #sabado
+        {
+            border-color: rgb(190, 189, 189);
+            color: blue;
+            background-color: rgb(199, 193, 255);
+        }
+
+        #primeiro
+        {
+            color: red;
+        }
+
+        p
+        {
+            font-size: xx-small;
+        }
+
+    </style>
+</head>
+<body>
+<center>
+    <h1>Maio 2023</h1>
+    <table>
+        <tr class="dias">
+            <td id="domingo">Dom</td>
+            <td id="semana">Seg</td>
+            <td id="semana">Ter</td>
+            <td id="semana">Qua</td>
+            <td id="semana">Qui</td>
+            <td id="semana">Sex</td>
+            <td id="sabado">Sáb</td>
+        </tr>
+        <tr>
+            <td id="domingo"> </td>
+            <td id="primeiro"></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td id="sabado">5</td>
+        </tr>
+        <tr>
+            <td id="domingo">6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td id="sabado">12</td>
+        </tr>
+        <tr>
+            <td id="domingo">13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td id="sabado">19</td>
+        </tr>
+        <tr>
+            <td id="domingo">20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td id="sabado">26</td>
+        </tr>
+        <tr>
+            <td id="domingo">27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td></td>
+            <td id="sabado"></td>
+        </tr>
+    
+    </table>
+    <p>14: Dia das mães 1:Dia do trabalho</p>
+    <p>5: Cheia 12: Ming. 19: Nova 27: Cresc.</p>
+</center>
+</body>
+</html>
